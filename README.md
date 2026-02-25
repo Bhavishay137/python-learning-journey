@@ -4,7 +4,6 @@
 
 This section documents the foundational Python concepts that I learned during the initial phase of my programming journey. Although these concepts were learned over time, I have now organized and structured them clearly.
 
-https://github.com/Bhavishay137/python-practice
 
 ---
 
