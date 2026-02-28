@@ -120,6 +120,70 @@ A key concept I explored was operator precedence, especially how "and" has highe
 
 ---
 
+## Extended Fundamentals - Reinforcement Phase
+
+### Overview
+
+After working with operators and conditional logic, I continued strengthening my foundational understanding of Python by exploring additional core concepts and revisiting data handling techniques.
+
+---
+
+### Topics Covered
+
+- Python keywords  
+- Extended data types (int, float, complex, boolean)  
+
+---
+
+### Understanding Developed
+
+I explored Python keywords using the built-in keyword module, which helped me understand the reserved words that define the syntax and structure of the language.
+
+I also reinforced my understanding of different data types, including integers, floating-point numbers, complex numbers, and boolean values. This helped me gain clarity on how Python represents and processes different forms of data.
+
+---
+
+### Key Takeaways
+
+- Python keywords define the structure and rules of the language  
+- Data types determine how values are stored and manipulated  
+- Strong understanding of fundamentals improves overall coding ability  
+
+---
+
+## Data Structures - Introduction Phase
+
+### Overview
+
+In this phase, I was introduced to basic data structures in Python, which are essential for organizing and managing data efficiently.
+
+---
+
+### Topics Covered
+
+- Lists  
+- Tuples  
+- Dictionaries  
+
+---
+
+### Understanding Developed
+
+I learned how lists can store multiple values and support mixed data types, making them flexible for general use.
+
+Tuples helped me understand immutability and how fixed data structures behave differently from lists.
+
+Dictionaries introduced the concept of storing data in key-value pairs, which is useful for structured and organized data storage.
+
+---
+
+### Key Takeaways
+
+- Data structures help in organizing and managing data effectively  
+- Lists are flexible and widely used  
+- Tuples ensure data consistency due to immutability  
+- Dictionaries are useful for structured data representation  
+
 ## Code Reference
 
 The implementation of all these concepts can be found in my Python practice repository:
