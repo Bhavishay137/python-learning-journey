@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repository documents my Python learning journey, focusing on building a strong foundation in core programming concepts. The content reflects concepts I learned over time and have now organized in a structured and meaningful way.
+This repository documents my Python learning journey, focusing on building a strong foundation in core programming concepts. The content reflects concepts I learned progressively and have now organized in a structured and meaningful way.
 
-This journey highlights not only the concepts covered but also the understanding developed through consistent practice.
+This journey highlights not only the concepts covered but also the depth of understanding developed through consistent hands-on practice and logical problem-solving.
 
 ---
 
@@ -73,7 +73,7 @@ After building the basics, I moved on to operators, which are essential for perf
 
 Through practicing operators, I understood how expressions are evaluated in Python. I learned how arithmetic operations are performed, how comparisons are made, and how logical conditions are combined.
 
-Exploring different types of operators gave me deeper insight into how Python handles data and evaluates expressions step by step.
+Exploring different types of operators gave me deeper insight into how Python evaluates expressions step by step and how data is manipulated internally.
 
 ---
 
@@ -90,7 +90,7 @@ Exploring different types of operators gave me deeper insight into how Python ha
 
 ### Overview
 
-This phase introduced decision-making in programming using conditional statements. It helped me understand how programs can behave differently based on conditions.
+This phase introduced structured decision-making in programming using conditional statements. It marked a major shift from writing simple statements to building logical program flow.
 
 ---
 
@@ -98,6 +98,9 @@ This phase introduced decision-making in programming using conditional statement
 
 - if statement  
 - if-else statement  
+- if-elif ladder  
+- Nested if statements  
+- Match-case statement (Python 3.10+)  
 - Combining conditions using logical operators  
 - Operator precedence in conditions  
 
@@ -105,18 +108,23 @@ This phase introduced decision-making in programming using conditional statement
 
 ### Understanding Developed
 
-I learned how conditional statements control the flow of a program. I also understood how multiple conditions are evaluated and how logical operators influence decision-making.
+I learned how conditional statements control the execution flow of a program. I practiced building layered logic using if-elif ladders and nested conditions.
 
-A key concept I explored was operator precedence, especially how "and" has higher priority than "or", which affects how conditions are interpreted.
+I explored how multiple conditions are evaluated sequentially and how logical operators influence decision-making.
+
+A key concept I understood deeply was operator precedence, especially how "and" has higher priority than "or", which directly affects how conditions are interpreted.
+
+I also explored Python’s match-case structure as a cleaner alternative for handling multiple condition checks.
 
 ---
 
 ### Key Takeaways
 
-- Conditional statements enable decision-making in programs  
-- Logical operators are important for building conditions  
-- Operator precedence affects how expressions are evaluated  
-- Proper structuring of conditions is important for correct output  
+- Conditional statements enable structured decision-making  
+- The order of conditions affects program behavior  
+- Nested logic allows layered evaluation  
+- Logical operators are fundamental in building conditions  
+- Understanding control flow is essential for writing real programs  
 
 ---
 
@@ -139,7 +147,7 @@ After working with operators and conditional logic, I continued strengthening my
 
 I explored Python keywords using the built-in keyword module, which helped me understand the reserved words that define the syntax and structure of the language.
 
-I also reinforced my understanding of different data types, including integers, floating-point numbers, complex numbers, and boolean values. This helped me gain clarity on how Python represents and processes different forms of data.
+I reinforced my understanding of different data types, including integers, floating-point numbers, complex numbers, and boolean values. This gave me deeper clarity on how Python represents and processes data internally.
 
 ---
 
@@ -147,7 +155,7 @@ I also reinforced my understanding of different data types, including integers, 
 
 - Python keywords define the structure and rules of the language  
 - Data types determine how values are stored and manipulated  
-- Strong understanding of fundamentals improves overall coding ability  
+- Strong understanding of fundamentals improves overall programming ability  
 
 ---
 
@@ -183,6 +191,8 @@ Dictionaries introduced the concept of storing data in key-value pairs, which is
 - Lists are flexible and widely used  
 - Tuples ensure data consistency due to immutability  
 - Dictionaries are useful for structured data representation  
+
+---
 
 ## Code Reference
 
