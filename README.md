@@ -679,6 +679,259 @@ This approach helped convert theoretical concepts into practical programming und
 
 ---
 
+---
+
+# Tuple, Dictionary and Set Data Handling Phase
+
+## Overview
+
+After developing a strong understanding of Python lists, I moved on to other important built-in data structures including tuples, dictionaries, sets, and frozensets.
+
+This phase helped me understand how different data structures store and organize information, and how Python provides different methods for creating, accessing, modifying, and processing them.
+
+I also began comparing the behavior of these structures, especially the differences between ordered and unordered collections, mutable and immutable data, and key-value based data storage.
+
+---
+
+## Topics Covered
+
+### Tuple Creation (Code 63)
+
+In this program I explored different ways of creating tuples in Python.
+
+I created an empty tuple and also created tuples containing string values. I then experimented with converting a list into a tuple using the `tuple()` constructor.
+
+Another example used `tuple()` with a string, which demonstrated how the characters of an iterable can become individual elements of a tuple.
+
+This helped me understand the basic structure of tuples and how Python provides multiple ways to create them.
+
+---
+
+### Tuple Operations (Code 64)
+
+After learning how to create tuples, I explored tuples containing different types of data.
+
+I created a tuple containing integers and strings, which demonstrated that tuples can store different data types together.
+
+I also experimented with **nested tuples**, where one tuple contains other tuples as its elements.
+
+Another example demonstrated tuple repetition using the `*` operator:
+
+`('Geeks',) * 3`
+
+This helped me understand how tuples can be combined, nested, and repeated while maintaining their structure.
+
+---
+
+### Dictionary Creation (Code 65)
+
+After working with tuples, I moved on to dictionaries.
+
+In this program I created a dictionary using key-value pairs and displayed the stored data.
+
+For example, the dictionary contained information such as a person's name and age.
+
+This introduced the idea of storing related information using **keys and values**, which makes dictionaries useful for representing structured data.
+
+---
+
+### Dictionary Creation Methods (Code 66)
+
+In this program I explored different ways to create dictionaries.
+
+The first approach used curly braces `{}` with key-value pairs.
+
+The second approach used the `dict()` constructor with keyword arguments.
+
+This helped me understand that Python provides multiple approaches for creating dictionaries depending on how the data is structured.
+
+---
+
+### Dictionary Adding and Updating (Code 67)
+
+After creating dictionaries, I explored how existing dictionary data can be modified.
+
+I added a new key-value pair to an existing dictionary and then updated the value associated with an existing key.
+
+This helped me understand that dictionaries are **mutable**, meaning their contents can be changed after creation.
+
+It also showed how assigning a value to a new key adds an element, while assigning a value to an existing key updates that element.
+
+---
+
+### Dictionary Iteration (Code 68)
+
+In this program I practiced iterating through a dictionary using a `for` loop.
+
+When a dictionary is directly used in a loop, Python provides its keys during iteration.
+
+This helped me understand how dictionaries can be traversed and how loops can be used to process dictionary data.
+
+---
+
+### Nested Dictionaries (Code 69)
+
+After working with basic dictionaries, I explored nested dictionaries.
+
+A nested dictionary contains another dictionary as the value of one of its keys.
+
+I created a dictionary containing student information and accessed a value from the inner dictionary using multiple keys:
+
+`d["student"]["name"]`
+
+This helped me understand how dictionaries can represent more complex and hierarchical data structures.
+
+---
+
+### Dictionary Iteration with `items()` (Code 70)
+
+In this program I explored the `items()` method for dictionaries.
+
+Using `items()` with a `for` loop allowed me to access both the **key and value** of each dictionary element.
+
+For example:
+
+`for key, value in d.items():`
+
+This provided a clearer way to process complete key-value pairs during dictionary iteration.
+
+---
+
+# Set and Frozenset Data Handling Phase
+
+## Overview
+
+After exploring tuples and dictionaries, I moved on to **sets**, another important built-in data structure in Python.
+
+This phase introduced the concept of collections containing unique elements and helped me understand how Python handles duplicate values, membership testing, iteration, element removal, and set conversion.
+
+I also explored `frozenset`, which introduced the concept of an immutable set.
+
+---
+
+## Topics Covered
+
+### Set Creation (Code 71)
+
+In this program I created a set using curly braces `{}` and stored multiple integer values inside it.
+
+This introduced the basic syntax for creating sets in Python.
+
+Sets are useful when working with collections where unique elements are required.
+
+---
+
+### Set Constructor (Code 72)
+
+In this program I explored the `set()` constructor and used it with different iterable objects.
+
+I created sets from:
+
+- an empty collection
+- a string
+- a list
+- a tuple
+- a dictionary
+
+This demonstrated that the `set()` constructor can convert different iterable objects into sets.
+
+It also helped me observe how duplicate elements are handled automatically when data is converted into a set.
+
+---
+
+### Set Indexing and Error Handling (Code 73)
+
+After creating sets, I explored whether set elements could be accessed using indexes.
+
+When I attempted to access a set using an index such as `s[0]`, Python raised a `TypeError`.
+
+I handled the error using `try-except`.
+
+This helped me understand that sets do not support index-based access because they are unordered collections.
+
+---
+
+### Set Iteration and Membership (Code 74)
+
+In this program I practiced iterating through a set using a `for` loop.
+
+I also used the `in` operator to check whether a specific element exists in the set.
+
+Another important observation was that duplicate values are automatically removed when stored in a set.
+
+This helped me understand both set iteration and membership testing.
+
+---
+
+### Set Remove and Discard Methods (Code 75)
+
+After learning how to create and access sets, I explored different methods for removing elements.
+
+The `remove()` method deletes a specified element and raises a `KeyError` if the element does not exist.
+
+The `discard()` method also removes an element, but it does not raise an error when the specified element is missing.
+
+I used `try-except` to handle the error produced by `remove()`.
+
+This helped me understand the practical difference between `remove()` and `discard()`.
+
+---
+
+### Frozenset (Code 76)
+
+In this program I explored `frozenset`, which provides an immutable version of a set.
+
+I created a frozenset directly using the `frozenset()` constructor and also converted an existing set into a frozenset.
+
+This introduced the concept of immutable collections and helped me understand how frozensets differ from normal mutable sets.
+
+---
+
+### Set Conversion (Code 77)
+
+In this program I practiced converting different data structures into sets.
+
+I converted a list containing duplicate values into a set, which automatically removed the duplicates.
+
+I also converted a string into a set to obtain its unique characters.
+
+Finally, I converted a dictionary into a set and observed that the dictionary's keys are used when performing the conversion.
+
+This helped reinforce the relationship between Python iterables and the `set()` constructor.
+
+---
+
+## Understanding Developed
+
+During this phase I developed a broader understanding of Python's built-in data structures beyond lists.
+
+Working with tuples helped me understand another sequence type and introduced concepts such as nested tuples and tuple repetition.
+
+Dictionaries introduced **key-value based data storage**, along with techniques for adding, updating, accessing, and iterating through structured information.
+
+Working with sets introduced the concept of **unique collections**, membership testing, set iteration, and different approaches to removing elements.
+
+Exploring `frozenset` also helped me understand the difference between mutable and immutable collections.
+
+Overall, these programs helped me understand that Python provides different data structures for different types of problems, and selecting the appropriate structure can make programs more organized and efficient.
+
+---
+
+## Key Takeaways
+
+- Tuples provide an ordered collection that can contain different data types
+- Tuples can be nested and repeated using Python operators
+- Dictionaries store information using key-value pairs
+- Dictionary values can be added, updated, and accessed using keys
+- Nested dictionaries can represent hierarchical data
+- The `items()` method allows access to both dictionary keys and values
+- Sets store unique elements and automatically remove duplicates
+- Sets do not support index-based access
+- The `in` operator can be used for set membership testing
+- `remove()` and `discard()` behave differently when an element does not exist
+- `frozenset` provides an immutable set structure
+- The `set()` constructor can convert different iterable objects into sets
+
 # Code Reference
 
 The implementation of all these concepts can be found in my Python practice repository:
