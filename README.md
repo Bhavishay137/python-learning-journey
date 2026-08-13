@@ -679,8 +679,6 @@ This approach helped convert theoretical concepts into practical programming und
 
 ---
 
----
-
 # Tuple, Dictionary and Set Data Handling Phase
 
 ## Overview
